@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIZZARIA DO MÁRIO</title>
+</head>
+<body>
+    <h4>
+    <h1> BEM VINDO A PIZZARIA DO MÁRIO</h1>
+    <img src="imagens/mario.png.png" height="250">
+    </h4>
+
+    <style>
+        h1{color: rgb(255, 191, 0); font-size: larger;} 
+        h2{color: rgb(0, 4, 255); font-size: larger;}
+        h3{color: rgb(255, 255, 255);}
+        h3{background-color: rgb(255, 255, 255);}
+        h4{background-color: rgb(93, 93, 150);}
+    </style>
+
+    
+    <h2>FAÇA O SEU PEDIDO</h2>
+
+    <h3><form method="post" action="test.jsp">
+
+       >> NOME: <input type="text" name="nome">
+        <br><br>
+
+       >> Endereço: <input type="text" endereço="endereço"><br>
+        Complemento: <input type="text" complemento="complemento">
+        <br><br>
+
+        Email: <input type="email">
+        <br><br>
+
+        Telefone para Contato: <input type="telefone">
+        <br><br>
+
+        Escolha o Tamanho da Pizza:<br><br>
+        <input type="checkbox" nome="tamanho" value="g" checked> Grande (12 Fatias)<br>
+        <input type="checkbox" nome="tamanho" value="m"> Médio (8 Fatias)<br>
+        <input type="checkbox" nome="tamanho" value="p"> Pequeno (4 Fatias)
+        <br><br><br>
+
+        SABORES: <select name="sabores">
+            <option>Calabresa</option>
+            <option>Frango</option>
+            <option>Lombinho</option>
+            <option>Quatro Queijos</option>
+        </select>
+        <br><br>
+
+        ADICIONAIS: <br><br>
+        <input type="checkbox" name="borda" value="sim"> Borda de Cheedar<br>
+        <input type="checkbox" name="borda" value="sim"> Borda de Chocolate<br>
+        <input type="checkbox" name="Queijo Extra" value="sim"> Queijo Extra<br>
+        <input type="checkbox" name="Queijo cheedar" value="sim"> Queijo Extra<br>
+        <input type="checkbox" name="chocolate" value="sim"> chocolate<br>
+        <br><br>
+
+        COMANTÁRIO: <br>
+        <textarea name="mensagem" rows="10" cols="30"></textarea>
+        <br><br>
+
+        DATA DE ENTREGA:<br><br>
+        <input type="date" name="dataEntrega">
+
+        <br><br>
+        <input type="submit">
+
+    </form></h3>
+
+</body>
+</html>
